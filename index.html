@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ponnonam 2K26 — COZMEK Onam Celebration</title>
+  <meta name="description"
+    content="You are warmly invited to Ponnonam 2K26, the joint Onam celebration by COZMEK, Disha Mentor, BSI, and BBC on Monday 24 August 2026. Register now." />
+  <meta property="og:title" content="Ponnonam 2K26 — COZMEK Onam Celebration" />
+  <meta property="og:description" content="Join us for Ponnonam 2K26 — the joint Onam celebration on 24 August 2026." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <button class="nav-brand-btn" id="nav-brand-btn" aria-label="Go to home">
+          <span class="nav-brand-text">PONNONAM<span class="nav-brand-year"> 2K26</span></span>
+        </button>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li role="listitem">
+          <button class="nav-link active" id="nav-home" data-view="home" aria-current="page">Home</button>
+        </li>
+        <li role="listitem">
+          <button class="nav-link" id="nav-events" data-view="events">Events</button>
+        </li>
+        <li role="listitem">
+          <button class="nav-link" id="nav-registration" data-view="registration">Registration</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- VIEW: HOME -->
+    <section id="view-home" class="view active" aria-label="Invitation — Home">
+      <div class="hero" id="hero">
+        <div class="hero-starburst" aria-hidden="true"></div>
+        <div class="hero-vignette" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="hero-supra">COZMEK warmly invites you to</p>
+          <h1 class="hero-title">
+            <span class="hero-title-main">Ponnonam</span>
+            <span class="hero-title-year">2K26</span>
+          </h1>
+          <p class="hero-date">Monday, 24 August 2026</p>
+          <p class="hero-host">
+            <span class="host-tag">Hosted by</span>
+            COZMEK &nbsp;&middot;&nbsp; Disha Mentor &nbsp;&middot;&nbsp; BSI &nbsp;&middot;&nbsp; BBC
+          </p>
+          <div class="hero-divider-wrap" aria-hidden="true">
+            <img src="assets/pookalam-divider.svg" alt="" width="700" height="90" loading="eager" />
+          </div>
+          <div class="countdown" id="countdown" aria-label="Countdown to the event">
+            <div class="countdown-unit">
+              <span class="countdown-num" id="cd-d">12</span>
+              <span class="countdown-label">Days</span>
+            </div>
+            <span class="countdown-colon" aria-hidden="true">:</span>
+            <div class="countdown-unit">
+              <span class="countdown-num" id="cd-h">00</span>
+              <span class="countdown-label">Hours</span>
+            </div>
+            <span class="countdown-colon" aria-hidden="true">:</span>
+            <div class="countdown-unit">
+              <span class="countdown-num" id="cd-m">00</span>
+              <span class="countdown-label">Minutes</span>
+            </div>
+            <span class="countdown-colon" aria-hidden="true">:</span>
+            <div class="countdown-unit">
+              <span class="countdown-num" id="cd-s">00</span>
+              <span class="countdown-label">Seconds</span>
+            </div>
+          </div>
+          <blockquote class="hero-tagline">
+            <p>"Onam is not a festival, it's a sense of homecoming, togetherness, and thankfulness."</p>
+          </blockquote>
+          <div class="hero-cta">
+            <button class="btn btn-primary" id="btn-view-program" data-view="events">View Full Program</button>
+            <button class="btn btn-outline" id="btn-register" data-view="registration">Register Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW: EVENTS -->
+    <section id="view-events" class="view" aria-label="Events — Full Program" hidden>
+      <div class="section-banner events-banner">
+        <div class="section-banner-starburst" aria-hidden="true"></div>
+        <div class="section-banner-content">
+          <h2 class="section-banner-title">Full Program</h2>
+          <p class="section-banner-sub">Ponnonam 2K26 &nbsp;&middot;&nbsp; Monday, 24 August 2026</p>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <!-- Culture Gallery -->
+        <div class="culture-gallery culture-single" aria-label="Thiruvathira Kali — Kerala dance celebrated at Onam">
+          <figure class="culture-card">
+            <div class="culture-img-wrap">
+              <img src="assets/thiruvathira.png"
+                alt="Women in traditional Kerala attire performing Thiruvathira Kali, the joyful circular dance of Onam"
+                loading="lazy" />
+            </div>
+            <figcaption>
+              <strong>Thiruvathira Kali</strong>
+              <span>The joyful circle dance of Onam</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="divider-wrap" aria-hidden="true">
+          <img src="assets/pookalam-divider.svg" alt="" width="800" height="90" loading="lazy" />
+        </div>
+
+        <!-- FORENOON SCHEDULE -->
+        <div class="schedule-block">
+          <div class="schedule-venue-header">
+            <h3 class="schedule-venue-title">Seminar Hall</h3>
+            <span class="schedule-venue-sub">Company-based Cultural Programs &mdash; Forenoon</span>
+          </div>
+          <div class="table-scroll-wrap" role="region" aria-label="Forenoon program schedule" tabindex="0">
+            <table class="schedule-table">
+              <thead>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">Program</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="time-col" data-label="Time">07:30 AM &ndash; 08:30 AM</td>
+                  <td data-label="Program">
+                    <strong>Onam Pookalam</strong>
+                    <span class="prog-tag prog-tag-all">Common for All Teams</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time-col" data-label="Time">08:30 AM &ndash; 09:30 AM</td>
+                  <td data-label="Program">
+                    <ol class="prog-list">
+                      <li>Mavelli Varavelp with Chenda Melam</li>
+                      <li>Lamp Lighting</li>
+                      <li>
+                        Onam Message &mdash; <strong>Mr. Eldo Paulose</strong>
+                        <em class="prog-title-note">Chairman, Badger Group of Companies &middot; MD, Cozmek Pvt Ltd
+                          &middot; MD, Dishamentor Pvt Ltd</em>
+                      </li>
+                      <li>Welcome Address from Directors</li>
+                      <li>Team Introduction</li>
+                    </ol>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time-col" data-label="Time">09:30 AM &ndash; 12:30 PM</td>
+                  <td data-label="Program">
+                    <ol class="prog-list">
+                      <li>Thiruvathira <span class="prog-tag prog-tag-time">8 min max</span></li>
+                      <li>Onam Song <span class="prog-tag prog-tag-time">5 min</span></li>
+                      <li>Dance <span class="prog-tag prog-tag-time">7 min</span></li>
+                    </ol>
+                    <div class="break-row" aria-label="Tea Break">
+                      Tea Break &mdash; 11:00 AM to 11:15 AM
+                    </div>
+                    <ol class="prog-list" start="4">
+                      <li>Song <span class="prog-tag prog-tag-time">5 min</span></li>
+                      <li>Fashion Show <span class="prog-tag prog-tag-time">8 min</span></li>
+                    </ol>
+                  </td>
+                </tr>
+                <tr class="sadhya-row">
+                  <td class="time-col" data-label="Time">12:30 PM &ndash; 02:00 PM</td>
+                  <td data-label="Program">
+                    <strong class="sadhya-label">Onam Sadhya</strong>
+                    <span class="prog-tag prog-tag-feast">Grand Feast</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="divider-wrap" aria-hidden="true">
+          <img src="assets/pookalam-divider.svg" alt="" width="800" height="90" loading="lazy" />
+        </div>
+
+        <!-- AFTERNOON SCHEDULE -->
+        <div class="schedule-block">
+          <div class="schedule-venue-header">
+            <h3 class="schedule-venue-title">Centre Courtyard</h3>
+            <span class="schedule-venue-sub">Outdoor Point-Based Games &mdash; Afternoon</span>
+          </div>
+          <div class="table-scroll-wrap" role="region" aria-label="Afternoon games schedule" tabindex="0">
+            <table class="schedule-table">
+              <thead>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">Activity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="time-col" data-label="Time">02:00 PM &ndash; 04:45 PM</td>
+                  <td data-label="Activity">
+                    <ol class="prog-list" start="6">
+                      <li>Kasera Kali <span class="prog-tag prog-tag-team">5 per team</span></li>
+                      <li>Chakkil Ottam <span class="prog-tag prog-tag-team">5 per team</span></li>
+                      <li>Kuppiyil Velam Nirakal <span class="prog-tag prog-tag-team">3 per team</span></li>
+                      <li>Lemon Spoon Race <span class="prog-tag prog-tag-team">3 per team</span></li>
+                    </ol>
+                    <div class="break-row" aria-label="Tea Break">
+                      Tea Break &mdash; 03:30 PM to 03:45 PM
+                    </div>
+                    <ol class="prog-list" start="10">
+                      <li>Rotti Kadi <span class="prog-tag prog-tag-team">3 per team</span></li>
+                      <li>Oori Adi <span class="prog-tag prog-tag-team">2 per team &middot; male &amp; female</span>
+                      </li>
+                      <li>Vadam Vali <span class="prog-tag prog-tag-team">7 per team &middot; male &amp; female</span>
+                      </li>
+                    </ol>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time-col" data-label="Time">04:45 PM &ndash; 05:00 PM</td>
+                  <td data-label="Activity"><strong>Trophy Presentation and Prize Distribution</strong></td>
+                </tr>
+                <tr>
+                  <td class="time-col" data-label="Time">05:00 PM</td>
+                  <td data-label="Activity">
+                    <strong>Ucharam Cholli Piriyal</strong>
+                    <em class="prog-title-note">Closing Ceremony</em>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="divider-wrap" aria-hidden="true">
+          <img src="assets/pookalam-divider.svg" alt="" width="800" height="90" loading="lazy" />
+        </div>
+
+        <!-- EXECUTIVE COMMITTEE -->
+        <div class="ec-block">
+          <h3 class="content-heading">Executive Committee</h3>
+          <p class="content-subhead">All programs are under the supervision of this committee</p>
+          <div class="ec-grid" role="list" aria-label="Executive Committee members">
+            <div class="ec-card" role="listitem"><span class="ec-name">Siraj</span><span
+                class="ec-org ec-org-cozmek">COZMEK</span></div>
+            <div class="ec-card" role="listitem"><span class="ec-name">Veena</span><span
+                class="ec-org ec-org-cozmek">COZMEK</span></div>
+            <div class="ec-card" role="listitem"><span class="ec-name">Helna</span><span
+                class="ec-org ec-org-disha">Disha Mentor</span></div>
+            <div class="ec-card" role="listitem"><span class="ec-name">Basil</span><span
+                class="ec-org ec-org-bsi">BSI</span></div>
+            <div class="ec-card" role="listitem"><span class="ec-name">Nithin</span><span
+                class="ec-org ec-org-bsi">BSI</span></div>
+            <div class="ec-card" role="listitem"><span class="ec-name">Xavier</span><span
+                class="ec-org ec-org-bbc">BBC</span></div>
+            <div class="ec-card" role="listitem"><span class="ec-name">Mariyam Raina</span><span
+                class="ec-org ec-org-bbc">BBC</span></div>
+          </div>
+        </div>
+
+        <div class="divider-wrap" aria-hidden="true">
+          <img src="assets/pookalam-divider.svg" alt="" width="800" height="90" loading="lazy" />
+        </div>
+
+        <!-- TEAMS / GROUPS -->
+        <div class="groups-block">
+          <h3 class="content-heading">Event Teams</h3>
+          <p class="content-subhead">76 participants across 4 mixed teams &mdash; afternoon games are cross-company to
+            encourage teamwork and interaction</p>
+          <div class="teams-grid" id="teams-grid">
+
+            <details class="team-card" id="team-1">
+              <summary class="team-summary">
+                <span class="team-num">Team 1</span>
+                <span class="team-leaders">Pooja Unnikrishnan &amp; Anadhakrishnan</span>
+                <span class="team-count"><span class="count-g">10 Girls</span> &middot; <span class="count-b">9
+                    Boys</span></span>
+                <span class="team-chevron" aria-hidden="true"></span>
+              </summary>
+              <ul class="member-list" role="list">
+                <li><span class="m-name">Pooja Unnikrishnan</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Anadhakrishnan</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Vinaya</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Anjana</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Selma A S</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Smitha</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Athira K</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Mariyam</span><span class="m-org m-ymbc">YMBC</span></li>
+                <li><span class="m-name">Aswathy CV</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Thasleema C B</span><span class="m-org m-ymbc">YMBC</span></li>
+                <li><span class="m-name">Zeenath</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Sinan OP</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Jickson George</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Sarath K S</span><span class="m-org m-disha">Disha Mentor</span></li>
+                <li><span class="m-name">Shibin P</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Arjun TD</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Naji Nihal</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Muhmmed Munavir C K</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Sherin Mon Biju</span><span class="m-org m-cozmek">Cozmek</span></li>
+              </ul>
+            </details>
+
+            <details class="team-card" id="team-2">
+              <summary class="team-summary">
+                <span class="team-num">Team 2</span>
+                <span class="team-leaders">Surya &amp; Pulkit Deepak Khatri</span>
+                <span class="team-count"><span class="count-g">11 Girls</span> &middot; <span class="count-b">8
+                    Boys</span></span>
+                <span class="team-chevron" aria-hidden="true"></span>
+              </summary>
+              <ul class="member-list" role="list">
+                <li><span class="m-name">Surya</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Pulkit Deepak Khatri</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Nandana P</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Aparana Vijayan</span><span class="m-org m-disha">Disha Mentor</span></li>
+                <li><span class="m-name">Rejitha</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Monisha</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Deepa</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Sofiya Sunny</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Arya R</span><span class="m-org m-ymbc">YMBC</span></li>
+                <li><span class="m-name">Anju</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Amaya M M</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Varna Rajesh K</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Elby Joseph</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Abdul Nahas K V</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Ansar</span><span class="m-org m-disha">Disha Mentor</span></li>
+                <li><span class="m-name">Bencin Paul</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Karthik S</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Daniel</span><span class="m-org m-disha">Disha Mentor</span></li>
+                <li><span class="m-name">Abhay</span><span class="m-org m-bbc">BBC</span></li>
+              </ul>
+            </details>
+
+            <details class="team-card" id="team-3">
+              <summary class="team-summary">
+                <span class="team-num">Team 3</span>
+                <span class="team-leaders">Biji Sreejith &amp; Murshid KP</span>
+                <span class="team-count"><span class="count-g">10 Girls</span> &middot; <span class="count-b">9
+                    Boys</span></span>
+                <span class="team-chevron" aria-hidden="true"></span>
+              </summary>
+              <ul class="member-list" role="list">
+                <li><span class="m-name">Biji Sreejith</span><span class="m-org m-ymbc">YMBC</span></li>
+                <li><span class="m-name">Murshid KP</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Aswathy Money</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Athira Jayendran</span><span class="m-org m-ymbc">YMBC</span></li>
+                <li><span class="m-name">Vismaya</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Sandeeptha</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Navya</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Rajalekshmi</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Stephy Monichan</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Chippy</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Anagha Asok</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Sarang</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Muhammed Mufeed K M</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Neeraj V N</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Krishanadas</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Ashkar Maheem</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Sanjay</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Visagh Reji</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Niyas</span><span class="m-org m-bbc">BBC</span></li>
+              </ul>
+            </details>
+
+            <details class="team-card" id="team-4">
+              <summary class="team-summary">
+                <span class="team-num">Team 4</span>
+                <span class="team-leaders">Shradha Sabu &amp; Renjith</span>
+                <span class="team-count"><span class="count-g">10 Girls</span> &middot; <span class="count-b">9
+                    Boys</span></span>
+                <span class="team-chevron" aria-hidden="true"></span>
+              </summary>
+              <ul class="member-list" role="list">
+                <li><span class="m-name">Shradha Sabu</span><span class="m-org m-disha">Disha Mentor</span></li>
+                <li><span class="m-name">Renjith</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Sreedevi N</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Meenakshi Dileep</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Asha</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Rincy Louis</span><span class="m-org m-ymbc">YMBC</span></li>
+                <li><span class="m-name">Devika A</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Nandana CM</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Sukanya</span><span class="m-org m-bsi">BSI</span></li>
+                <li><span class="m-name">Anu Albert</span><span class="m-org m-ymbc">YMBC</span></li>
+                <li><span class="m-name">Abimel S B Kulumala</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Arjun</span><span class="m-org m-bbc">BBC</span></li>
+                <li><span class="m-name">Emmanuel Jeemon</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Habeeb</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Muhammed Rifayi</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Muhammed Shajahan P U</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Sabareesh M S</span><span class="m-org m-cozmek">Cozmek</span></li>
+                <li><span class="m-name">Akash VS</span><span class="m-org m-bbc">BBC</span></li>
+              </ul>
+              <p class="team-footnote">* The source document states 10 Girls / 9 Boys (19 total) but lists 18 names. One
+                participant may be missing &mdash; please confirm with the committee before publishing.</p>
+            </details>
+
+          </div>
+        </div>
+
+        <div class="divider-wrap" aria-hidden="true">
+          <img src="assets/pookalam-divider.svg" alt="" width="800" height="90" loading="lazy" />
+        </div>
+
+        <!-- GOOD TO KNOW -->
+        <div class="good-to-know" id="good-to-know">
+          <h3 class="content-heading">Good to Know</h3>
+          <ul class="know-list" role="list">
+            <li>Cultural events are organized company-wise so each team can prepare and practice within a short period.
+            </li>
+            <li>Afternoon games are conducted by mixing everyone into different teams, to encourage interaction,
+              teamwork, and participation.</li>
+            <li>All programs will be under the control of the Executive Committee.</li>
+            <li>Please be alert to maintain time management for clear execution of the programs.</li>
+            <li>Water bottles will be provided in the Seminar Hall and Centre Courtyard.</li>
+            <li>In case of any casualty, first aid will be provided.</li>
+            <li>
+              Dressing rooms are provided at the venue:
+              <ul class="know-sublist">
+                <li><strong>Male:</strong> Cozmek DIP Room, 4th Floor</li>
+                <li><strong>Female:</strong> Studio, 3rd Floor</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIEW: REGISTRATION -->
+    <section id="view-registration" class="view" aria-label="Event Registration" hidden>
+      <div class="section-banner reg-banner">
+        <div class="section-banner-starburst" aria-hidden="true"></div>
+        <div class="section-banner-content">
+          <h2 class="section-banner-title">Participant Registration</h2>
+          <p class="section-banner-sub">Register yourself for cultural programs or afternoon games — Ponnonam 2K26</p>
+        </div>
+      </div>
+
+      <div class="container form-container">
+        <div id="reg-form-wrap">
+          <form id="registration-form" novalidate aria-label="Ponnonam 2K26 Registration Form">
+            <p class="form-intro">Use this form to register as a participant for a <strong>cultural performance</strong>
+              (Thiruvathira, Song, Dance, Fashion Show, etc.) or an <strong>afternoon game</strong> (Kasera Kali, Vadam
+              Vali, etc.). All registrations will be used to compile the official participants list for Ponnonam 2K26.
+            </p>
+
+            <div class="form-group" id="fg-full-name">
+              <label for="full-name" class="form-label">Full Name <span class="req"
+                  aria-label="required">*</span></label>
+              <input type="text" id="full-name" name="fullName" class="form-input" placeholder="Your full name"
+                autocomplete="name" aria-required="true" aria-describedby="err-full-name" />
+              <span class="field-error" id="err-full-name" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group" id="fg-email">
+              <label for="email" class="form-label">Email Address <span class="req"
+                  aria-label="required">*</span></label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com"
+                autocomplete="email" aria-required="true" aria-describedby="err-email" />
+              <span class="field-error" id="err-email" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group" id="fg-company">
+              <label for="company" class="form-label">Company <span class="req" aria-label="required">*</span></label>
+              <select id="company" name="company" class="form-select" aria-required="true"
+                aria-describedby="err-company">
+                <option value="">Select your company</option>
+                <option value="COZMEK">COZMEK</option>
+                <option value="Disha Mentor">Disha Mentor</option>
+                <option value="BSI">BSI</option>
+                <option value="BBC">BBC</option>
+                <option value="YMBC">YMBC</option>
+              </select>
+              <span class="field-error" id="err-company" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group" id="fg-department">
+              <label for="department" class="form-label">Department <span class="req"
+                  aria-label="required">*</span></label>
+              <select id="department" name="department" class="form-select" aria-required="true"
+                aria-describedby="err-department">
+                <option value="">Select your department</option>
+                <option value="HR">HR</option>
+                <option value="Operations">Operations</option>
+                <option value="AI">AI</option>
+                <option value="Cyber">Cyber</option>
+                <option value="Cloud">Cloud</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Accounts">Accounts</option>
+                <option value="Administration">Administration</option>
+                <option value="Other">Other</option>
+              </select>
+              <span class="field-error" id="err-department" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group" id="fg-participation-category">
+              <label for="participation-category" class="form-label">Participation Category <span class="req"
+                  aria-label="required">*</span></label>
+              <select id="participation-category" name="participationCategory" class="form-select" aria-required="true"
+                aria-describedby="err-participation-category">
+                <option value="">Select participation category</option>
+                <option value="Cultural Performance">Cultural Performance</option>
+                <option value="Games Activity">Games Activity</option>
+                <option value="Both">Both Cultural and Games</option>
+              </select>
+              <span class="field-error" id="err-participation-category" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group" id="fg-cultural-program">
+              <label for="cultural-program" class="form-label">Event / Activity <span class="req"
+                  aria-label="required">*</span></label>
+              <select id="cultural-program" name="culturalProgram" class="form-select" aria-required="true"
+                aria-describedby="err-cultural-program">
+                <option value="">Select your cultural program</option>
+                <optgroup label="Cultural Performances">
+                  <option value="Thiruvathira">Thiruvathira</option>
+                  <option value="Onam Song">Onam Song</option>
+                  <option value="Dance">Dance</option>
+                  <option value="Song">Song</option>
+                  <option value="Fashion Show">Fashion Show</option>
+                </optgroup>
+                <optgroup label="Games and Activities">
+                  <option value="Kasera Kali">Kasera Kali</option>
+                  <option value="Chakkil Ottam">Chakkil Ottam</option>
+                  <option value="Kuppiyil Velam Nirakal">Kuppiyil Velam Nirakal</option>
+                  <option value="Lemon Spoon Race">Lemon Spoon Race</option>
+                  <option value="Rotti Kadi">Rotti Kadi</option>
+                  <option value="Oori Adi">Oori Adi</option>
+                  <option value="Vadam Vali">Vadam Vali</option>
+                </optgroup>
+                <option value="Onam Pookalam">Onam Pookalam (Common)</option>
+                <option value="Not Participating">Not Participating in Events</option>
+              </select>
+              <span class="field-error" id="err-cultural-program" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group" id="fg-phone">
+              <label for="phone" class="form-label">Phone Number <span class="req"
+                  aria-label="required">*</span></label>
+              <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 XXXXX XXXXX"
+                autocomplete="tel" aria-required="true" aria-describedby="err-phone" />
+              <span class="field-error" id="err-phone" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group" id="fg-sadhya">
+              <span class="form-label" id="sadhya-label">Sadhya Preference <span class="req"
+                  aria-label="required">*</span></span>
+              <div class="radio-group" role="radiogroup" aria-labelledby="sadhya-label" aria-describedby="err-sadhya">
+                <label class="radio-label">
+                  <input type="radio" name="sadhya" id="sadhya-veg" value="Vegetarian" aria-required="true" />
+                  <span class="radio-custom" aria-hidden="true"></span>
+                  Vegetarian
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="sadhya" id="sadhya-nonveg" value="Non-Vegetarian" />
+                  <span class="radio-custom" aria-hidden="true"></span>
+                  Non-Vegetarian
+                </label>
+              </div>
+              <span class="field-error" id="err-sadhya" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group form-check-group" id="fg-agreement">
+              <label class="checkbox-label">
+                <input type="checkbox" id="agreement" name="agreement" aria-required="true"
+                  aria-describedby="err-agreement" />
+                <span class="checkbox-custom" aria-hidden="true"></span>
+                <span class="checkbox-text">I confirm the information is accurate, and I am registering as a participant
+                  for a cultural program or game.</span>
+              </label>
+              <span class="field-error" id="err-agreement" role="alert" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+              <span id="submit-btn-text">Confirm Registration</span>
+              <span class="btn-spinner" id="submit-spinner" aria-hidden="true" hidden></span>
+            </button>
+
+          </form>
+        </div>
+
+        <div id="reg-success" class="success-wrap" hidden role="status" aria-live="polite" aria-atomic="true">
+          <div class="success-card">
+            <div class="success-pookalam" aria-hidden="true"></div>
+            <h2 class="success-title">Registration Confirmed!</h2>
+            <p class="success-message">Your participation has been recorded. Wishing you a joyful Ponnonam 2K26 &mdash;
+              see you on 24 August!</p>
+            <p class="success-onam-wish">Happy Onam</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ADMIN PANEL -->
+  <div id="admin-panel" class="admin-panel" hidden aria-label="Admin panel">
+
+    <div id="admin-gate" class="admin-gate">
+      <div class="admin-box">
+        <h2 class="admin-box-title">Admin Access</h2>
+        <p class="admin-box-desc">Enter the passcode to view registrations.</p>
+        <div class="form-group">
+          <label for="admin-passcode" class="form-label">Passcode</label>
+          <input type="password" id="admin-passcode" name="adminPasscode" class="form-input"
+            placeholder="Enter passcode" autocomplete="off" aria-describedby="err-admin-passcode" />
+          <span class="field-error" id="err-admin-passcode" role="alert" aria-live="polite"></span>
+        </div>
+        <button class="btn btn-primary" id="admin-login-btn">Enter Admin Panel</button>
+        <button class="btn btn-ghost admin-back-btn" id="admin-back-btn">Back to Site</button>
+      </div>
+    </div>
+
+    <div id="admin-data" class="admin-data" hidden>
+      <div class="admin-data-header">
+        <div class="admin-data-title-wrap">
+          <h2 class="admin-data-title">Ponnonam 2K26 &mdash; Registrations</h2>
+          <span class="admin-reg-count" id="admin-reg-count">0 registrations</span>
+        </div>
+        <div class="admin-data-actions">
+          <button class="btn btn-primary" id="excel-export-btn">Export Excel</button>
+          <button class="btn btn-outline" id="csv-export-btn">Export CSV</button>
+          <button class="btn btn-ghost" id="admin-logout-btn">Log Out</button>
+        </div>
+      </div>
+      <div class="admin-table-wrap">
+        <table class="admin-table" id="admin-table" aria-label="Registrations data table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Full Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Company</th>
+              <th scope="col">Department</th>
+              <th scope="col">Category</th>
+              <th scope="col">Event / Activity</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Sadhya</th>
+              <th scope="col">Registered At</th>
+            </tr>
+          </thead>
+          <tbody id="admin-table-body"></tbody>
+        </table>
+        <p class="admin-empty-msg" id="admin-empty-msg" hidden>No registrations yet.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" role="contentinfo">
+    <div class="footer-divider-wrap" aria-hidden="true">
+      <img src="assets/pookalam-divider.svg" alt="" width="900" height="90" loading="lazy" />
+    </div>
+    <div class="footer-inner">
+      <p class="footer-collab-label">Co-organized by</p>
+      <div class="sponsor-row" aria-label="Co-organizing companies">
+        <span class="sponsor-name sponsor-cozmek">COZMEK</span>
+        <span class="sponsor-sep" aria-hidden="true">|</span>
+        <span class="sponsor-name sponsor-disha">Disha Mentor</span>
+        <span class="sponsor-sep" aria-hidden="true">|</span>
+        <span class="sponsor-name sponsor-bsi">BSI</span>
+        <span class="sponsor-sep" aria-hidden="true">|</span>
+        <span class="sponsor-name sponsor-bbc">BBC</span>
+      </div>
+      <p class="footer-tagline">"Onam is not a festival, it's a sense of homecoming, togetherness, and thankfulness."
+      </p>
+      <p class="footer-copy">Ponnonam 2K26 &middot; 24 August 2026 &middot; All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

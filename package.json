@@ -1,0 +1,17 @@
+{
+  "name": "ponnonam-2k26",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ponnonam 2K26 — COZMEK Onam Celebration registration site with Node.js backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
