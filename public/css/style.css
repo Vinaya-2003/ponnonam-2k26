@@ -1329,16 +1329,18 @@ a {
   margin-bottom: 24px;
 }
 
-color: var(--text-light);
-font-family: 'Lato',
-sans-serif;
-font-size: 0.95rem;
-padding: 13px 16px;
-transition: border-color var(--ease),
-box-shadow var(--ease),
-background var(--ease);
-outline: none;
-width: 100%;
+.form-input,
+.form-select {
+  background: rgba(40, 2, 12, 0.65);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--r-md);
+  color: var(--text-light);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem;
+  padding: 13px 16px;
+  transition: border-color var(--ease), box-shadow var(--ease), background var(--ease);
+  outline: none;
+  width: 100%;
 }
 
 .form-input::placeholder {
