@@ -87,7 +87,7 @@ async function startServer() {
   // Connect to MongoDB
   await connectDB();
 
-  app.listen(PORT, () => {
+  app.listen(PORT, '0.0.0.0',() => {
     logger.log('SERVER', '');
     logger.log('SERVER', '╔══════════════════════════════════════════╗');
     logger.log('SERVER', '║      Ponnonam 2K26 — Backend Server      ║');
